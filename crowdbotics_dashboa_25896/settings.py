@@ -50,6 +50,7 @@ INSTALLED_APPS = [
 LOCAL_APPS = [
     'home',
     'modules',
+    'plans',
     'users.apps.UsersConfig',
 ]
 THIRD_PARTY_APPS = [

@@ -1,3 +1,4 @@
+from plans.views import PlanViewSet
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
@@ -13,6 +14,7 @@ router.register("signup", SignupViewSet, basename="signup")
 router.register("login", LoginViewSet, basename="login")
 router.register("customtext", CustomTextViewSet)
 router.register("homepage", HomePageViewSet)
+router.register("plan", PlanViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),
