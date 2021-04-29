@@ -35,9 +35,9 @@ urlpatterns = [
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "Crowdbotics Dashboard API"
-admin.site.site_title = "Crowdbotics Dashboard API Admin Portal"
-admin.site.index_title = "Crowdbotics Dashboard API Admin"
+admin.site.site_header = "Crowdbotics Dashboard AP"
+admin.site.site_title = "Crowdbotics Dashboard AP Admin Portal"
+admin.site.index_title = "Crowdbotics Dashboard AP Admin"
 
 # swagger
 api_info = openapi.Info(
