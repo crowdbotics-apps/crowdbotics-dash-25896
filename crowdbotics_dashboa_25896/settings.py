@@ -48,9 +48,11 @@ INSTALLED_APPS = [
     'django.contrib.sites'
 ]
 LOCAL_APPS = [
+    'apps',
     'home',
     'modules',
     'plans',
+    'subscriptions',
     'users.apps.UsersConfig',
 ]
 THIRD_PARTY_APPS = [
